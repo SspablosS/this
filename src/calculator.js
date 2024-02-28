@@ -5,8 +5,8 @@ const calculator = {
   b: 0,
 
   read() {
-    this.a = readlineSync.question('Введите a: ');
-    this.b = readlineSync.question('Введите b: ');
+    this.a = readlineSync.questionInt('Введите a: ');
+    this.b = readlineSync.questionInt('Введите b: ');
   },
 
   sum() {
